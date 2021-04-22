@@ -1,1 +1,3 @@
-Just some of learning endeavours. 
+# About
+
+Just some of learning endeavors.

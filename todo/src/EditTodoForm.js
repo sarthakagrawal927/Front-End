@@ -7,6 +7,17 @@ function EditTodoForm({ id, task, toggleEditForm }) {
   const [value, handleChange, reset] = useInputState(task);
   const dispatch = useContext(DispatchContext);
 
+  //   {
+  // “Fruit”:{
+  // “seasonal”:[{“name”:”Mango”,”price”:100},{“name”:”Pineapple”,”price”:70}],
+  // “all-year”:[{“name”:”banana”,”price”:150}],
+  // },
+  // “Vegetables”:{
+  // “Leafy”:[{“name”:”Spinach”,”price”:20},{“name”:”Methi”,”price”:20}],
+  // “Essentials”:[{“name”:”Onion”,”price”:35}],
+  // }
+  // }
+
   return (
     <form
       onSubmit={(e) => {

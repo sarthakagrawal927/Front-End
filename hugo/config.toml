@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Sarthak's Blog"
+theme = "ananke"
+
+[taximonies]
+ categories = "categories"
+ tag = "tags"
+ genres="genres"
